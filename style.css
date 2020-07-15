@@ -18,7 +18,7 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
-    background-color: chocolate;
+    background-color: gainsboro;
 }
 
 .logo-container,
@@ -51,6 +51,12 @@ nav {
     text-decoration: none;
 }
 
+.nav-video {
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .cart {
     flex: 1;
     justify-content: flex-end;
@@ -62,6 +68,7 @@ nav {
     margin: auto;
     min-height: 80vh;
     align-items: center;
+    color: gold;
 }
 
 .introduction {
@@ -112,6 +119,10 @@ nav {
     display: flex;
     justify-content: center;
     height: 60vh;
+}
+
+.outlook {
+    flex: 1;
 }
 
 .cover img {
